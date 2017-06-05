@@ -5,18 +5,17 @@
 
 ---
 
-
 # Contents:
 
-Video / Topic                                                   | Notes     | Progress
---------------------------------------------------------------- | --------- | --------
-[What is RxJS?](https://git.io/vHVlw)                           | Intro     | ✅
+Video / Topic                                                  | Notes     | Progress
+-------------------------------------------------------------- | --------- | --------
+[What is RxJS?](https://git.io/vHVlw)                          | Intro     | ✅
 [Using an event stream of double clicks](https://git.io/vHVlP) | .buffer() | ✅
-[Why choose RxJS]()                                             |           | 🔲
-[Async requests and responses in RxJS]()                        |           | 🔲
-[Rendering on the DOM with RxJS]()                              |           | 🔲
-[New requests from refresh clicks]()                            |           | 🔲
-[Clear data while loading with RxJS startWith]()                |           | 🔲
-[Sharing network requests with RxJS merge]()                    |           | 🔲
-[Using cached network data with RxJS]()                         |           | 🔲
-[An overview of reactive concepts]()                            |           | 🔲
+Why choose RxJS                                                |           | 🔲
+Async requests and responses in RxJS                           |           | 🔲
+Rendering on the DOM with RxJS                                 |           | 🔲
+New requests from refresh clicks                               |           | 🔲
+Clear data while loading with RxJS startWith                   |           | 🔲
+Sharing network requests with RxJS merge                       |           | 🔲
+Using cached network data with RxJS                            |           | 🔲
+An overview of reactive concepts                               |           | 🔲
