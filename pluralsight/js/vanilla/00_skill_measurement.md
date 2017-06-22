@@ -5,28 +5,27 @@
 
 1. What does `"2" + 3 + 4` evaluate to?
 
-  => **'234'**
+  > **'234'**
 
 2. The Math.tan( ) method is used to?
 
-  => **return the tangent of an angle (in radians)**
+  > **return the tangent of an angle (in radians)**
 
 3. Which of these is NOT a built-in JavaScript type?
 
-  => **Time**
+  >  **Time**
 
 4. Which string prototype method is capable of removing a character from a string?
 
-  => `replace()`
+  >  `replace()`
 
 5. Which of the following is NOT a reserved word?
 
-  => `and`
+  >  `and`
 
 6. What does Object.keys(x) return?
 
-  =>
-  **The enumerable properties of x as an array of strings**
+  > **The enumerable properties of x as an array of strings**
 
 7. What is the difference between the following two class implementations? First:
 
@@ -46,7 +45,7 @@
   };
   ```
 
-  => **The first class creates a copy of the feed function for every instance; the second shares a single implementation**
+  > **The first class creates a copy of the feed function for every instance; the second shares a single implementation**
 
 8. What is the result of running the following code?
 
@@ -58,7 +57,7 @@
   f();
   ```
 
-  => **It throws an error because foo is not defined.**
+  > **It throws an error because foo is not defined.**
 
 9. How would you iterate over the following object?
 
@@ -68,21 +67,17 @@
   };
   ```
 
-  =>
-
-  ```javascript
-  for (var key in my_data) {}
-  ```
+  > ```javascript
+    for (var key in my_data) {}
+    ```
 
 10. What is the type of `null`, according to the `typeof` operator?
 
-  => **"object"**
+  > **"object"**
 
 11. What is the correct method for creating an object instance:
 
-  =>
-
-  ```javascript
+  > ```javascript
   { x: 1, y: 2}
   ```
 
@@ -96,7 +91,7 @@
   var c = b;
   ```
 
-  => `ReferenceError`
+  > `ReferenceError`
 
 13. How do you access the second parameter that is passed to this function?
 
@@ -106,21 +101,19 @@
   foo("first", "second");
   ```
 
-  => `arguments[1]`
+  > `arguments[1]`
 
-14. Which Object method takes a `propertyName` parameter and returns `true` if the object contains an uninherited property with that key?
+14. Which Object method takes a `propertyName` parameter and returns `true` if the object contains an un-inherited property with that key?
 
-  => `obj.hasOwnProperty('propertyName');`
+  > `obj.hasOwnProperty('propertyName');`
 
 15. What is the difference between using call() and apply() to invoke a function with multiple arguments?
 
-  =>**apply() is identical to call(), except apply() requires an array as the second parameter**
+  > **apply() is identical to call(), except  apply() requires an array as the second   parameter**
 
 16. Which is the proper way to do prototypal inheritance?
 
-  =>
-
-  ```javascript
+  > ```javascript
   function superclass() {this.stuff="stuff";}
   function subclass() {}
   subclass.prototype = new superclass();
@@ -128,14 +121,14 @@
 
 17. Evaluate the following: `undefined + 2;`
 
-  => **NaN**
+  > **NaN**
 
 18. What is JSONP used for?
 
-  => **Cross-domain requests**
+  > **Cross-domain requests**
 
 19. Given the following, what is the value of x?
 
   `var x = typeof null;`
 
-  => **"object"**
+  > **"object"**
