@@ -1,0 +1,9 @@
+{
+  "name": "egghead-preact",
+  "version": "1.0.0",
+  "description": "Egghead Preact up and running",
+  "main": "index.js",
+  "author": "Vinaya Bhattarai <vnbhattarai@protonmail.ch>",
+  "license": "MIT",
+  "private": true
+}
