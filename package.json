@@ -19,6 +19,6 @@
     "preact": "^8.2.5"
   },
   "scripts": {
-    "start": "webpack-dev-server --inline"
+    "start": "webpack-dev-server --open --inline"
   }
 }
