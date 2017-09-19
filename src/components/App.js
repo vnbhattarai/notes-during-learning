@@ -21,17 +21,20 @@ export class App extends Component {
       })
       .catch(err => console.error(err));
   }
-  render() {
+  render({ config }, { loading, user }) {
     return (
       <div class="app">
-        {this.state.loading ? (
-          <p>Please wait...</p>
-        ) : (
-          <User image={this.state.user.avatar_url} name={this.state.user.name} />
-        )}
+        {loading ? <p>Fetching {config.urls.user}...</p> : <User image={user.avatar_url} name={user.name} />}
       </div>
     );
   }
 }
 
 export default App;
+
+// setTimeout(() => {
+//   this.setState({
+//     user,
+//     loading: false
+//   });
+// }, 2000);
