@@ -1,5 +1,6 @@
 import { h, Component } from "preact";
 import User from "./User";
+import InputTest from "./InputTest";
 
 export class App extends Component {
   constructor(props) {
@@ -24,7 +25,10 @@ export class App extends Component {
   render({ config }, { loading, user }) {
     return (
       <div class="app">
-        {loading ? <p>Fetching {config.urls.user}...</p> : <User image={user.avatar_url} name={user.name} />}
+        <div>{loading ? <p>Fetching {config.urls.user}...</p> : <User image={user.avatar_url} name={user.name} />}</div>
+        <div className="input-test">
+          <InputTest />
+        </div>
       </div>
     );
   }
