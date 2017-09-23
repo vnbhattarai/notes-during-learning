@@ -1,5 +1,7 @@
 import { SocialNetwork } from "./social-networks";
 
+import * as _ from "lodash";
+
 class App implements SocialNetwork {
   title = "Eggheads";
 
@@ -7,3 +9,5 @@ class App implements SocialNetwork {
     return [{ name: "John" }];
   }
 }
+
+console.log(_.isArray(new App().getUsers()));
