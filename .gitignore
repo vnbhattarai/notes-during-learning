@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# simplehttp2server local signing certificate and key
+key.pem     
+cert.pem
+
