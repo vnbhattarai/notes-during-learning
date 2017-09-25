@@ -1,4 +1,4 @@
-# <img src="https://avatars0.githubusercontent.com/u/5975001" alt="Egghead" height="50"> : Up and Running with TypeScript <img src="https://avatars1.githubusercontent.com/u/6407041" height="50">
+# <img src="https://avatars0.githubusercontent.com/u/5975001" alt="Egghead" height="80"> : Up and Running with TypeScript <img src="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/052/full/EGH_Typescript_Plumbing_image.png?1496436441" height="80">
 
 ---
 
@@ -25,9 +25,9 @@ tsc --init  //Creates tsconfig.json
 ```
 
 4. Available options: 
-> Following is the default config upon --init:
+ Following is the default config upon --init:
 
-```json
+```javascript
 {
   "compilerOptions": {
     /* Basic Options */
